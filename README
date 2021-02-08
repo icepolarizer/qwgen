@@ -1,0 +1,10 @@
+qwgen
+=====
+
+Generates random password using the Hadamard Gates in qiskit.
+
+Warning: It uses the qasm **simulator**. It's not implementing real quantum randomness but mimicking them with qiskit's simulator. So don't use it for serious work.
+
+Usage:
+  -c, --clipboard           copies generated password into the clipboard
+  -l <num>, --length <num>  password length
