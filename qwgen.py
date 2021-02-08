@@ -20,7 +20,6 @@ from qiskit import *
 
 import pyperclip
 
-token = "IBM Q TOKEN HERE"
 
 table = string.ascii_uppercase + string.ascii_lowercase + string.digits
 circ = QuantumCircuit(6)
