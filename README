@@ -3,6 +3,8 @@ qwgen
 
 Generates random password using the Hadamard Gates in qiskit.
 
+Works with Python3. Requires pyperclip and qiskit. Install them with pip.
+
 Warning: It uses the qasm **simulator**. It's not implementing real quantum randomness but mimicking them with qiskit's simulator. So don't use it for serious work.
 
 Usage:
